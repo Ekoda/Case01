@@ -32,7 +32,6 @@ class TestManage(unittest.TestCase):
         self.assertEqual(manage(testcases[6], inventory), 0)
         self.assertEqual(manage(testcases[7], inventory), 0)
 
-
     def test_negatives(self):
         inventory = 0
         testcases = ['I-1235122', 'S-123512213', 'I-1351512']
@@ -56,4 +55,3 @@ class TestManage(unittest.TestCase):
         testcases = ['I1.235123', 'S643.00', 'I.1', 'S.02']
         for x in testcases:
             self.assertEqual(manage(x, inventory), 'Invalid')
-
