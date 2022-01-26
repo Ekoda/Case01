@@ -4,7 +4,7 @@ from case import manage
 class TestManage(unittest.TestCase):
     def test_lowercase(self):
         inventory = 0
-        testcases = ['l', 's', 'i']
+        testcases = ['l', 's', 'i', 'l1', 's1', 'i1']
         for x in testcases:
             self.assertEqual(manage(x, inventory), 'Invalid')
 
@@ -22,7 +22,7 @@ class TestManage(unittest.TestCase):
 
     def test_extreme_numbers(self):
         inventory = 0
-        testcases = ['L', 'I12312104581208120812580128051208521', 'S12124124124124124124', 'I1000000000000000000', 'I000', 'S0', 'I-0', 'S-0']
+        testcases = ['L', 'I12312104581208120812580128051208521', 'S12124124124124124124', 'I1000000000000000000', 'I000', 'S0', 'I-0', 'S-0', 'I0']
         self.assertEqual(manage(testcases[0], inventory), 0)
         self.assertEqual(manage(testcases[1], inventory), 12312104581208120812580128051208521)
         self.assertEqual(manage(testcases[2], inventory), -12124124124124124124)
@@ -31,6 +31,7 @@ class TestManage(unittest.TestCase):
         self.assertEqual(manage(testcases[5], inventory), 0)
         self.assertEqual(manage(testcases[6], inventory), 0)
         self.assertEqual(manage(testcases[7], inventory), 0)
+        self.assertEqual(manage(testcases[8], inventory), 0)
 
     def test_negatives(self):
         inventory = 0
