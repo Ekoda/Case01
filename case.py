@@ -17,7 +17,7 @@ def manage(user_input, data):
 
     Parameters:
         user_input: String, 'L' to display data, 'I' followed by a number to add amount, 'S' followed by a number in str format to remove amount.
-        data: The data which the user is concerned with.
+        data: Integer of the amount of stock items.
 
     Returns:
         Integer or 'Invalid' string if input or data is invalid.
