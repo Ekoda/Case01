@@ -16,7 +16,7 @@ def manage(user_input, data):
     The function updates and returns data based on input, returns 'Invalid' string if input is invalid.
 
     Parameters:
-        user_input: String, 'L' to display data, 'I' followed by a number to add, 'S' followed by a number in str format to remove.
+        user_input: String, 'L' to display data, 'I' followed by a number to add amount, 'S' followed by a number in str format to remove amount.
         data: The data which the user is concerned with.
 
     Returns:
