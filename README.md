@@ -1,9 +1,6 @@
 # EtimoCase
 <h3>Console App for Etimo Written in Python3 (Functional)</h3>
 
-<p>Jag tar tacksamt emot feedback!</p>
-
-
 <p>Uppgiften består av att skriva en konsolapplikation för att hantera lagersaldon.</p>
 <p>Användargränssnittet ska innehålla tre funktioner:</p>
 <ol>
@@ -19,3 +16,6 @@
 
 <p>Run unittest</p>
 <blockquote>python3 -m unittest test_case</blockquote>
+
+<br>
+<p>Jag tar tacksamt emot feedback!</p>
