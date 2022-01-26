@@ -41,7 +41,6 @@ def manage(user_input, data):
 
 # Run the program / Console presentation ---
 if __name__ == '__main__':
-    # Introduces the functionality of the program in console
     print('\nValid commands:')
     print("* Show inventory amount: 'L'")
     print("* Add amount to inventory: I followed by amount e.g 'I20'")
