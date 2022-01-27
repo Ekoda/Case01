@@ -1,4 +1,3 @@
-# Main function takes in data as an input as well so that it may be reused to work on any inventory item.
 def manage(user_input, inventory):
     """
     The function updates and returns data based on input, returns 'Invalid' string if input is invalid.
