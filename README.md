@@ -12,7 +12,7 @@
 
 <br>
 <p>Run in console</p>
-<blockquote>python3 case.py</blockquote>
+<blockquote>python3 console_app.py</blockquote>
 
 <p>Run unittest</p>
 <blockquote>python3 -m unittest test_case</blockquote>
