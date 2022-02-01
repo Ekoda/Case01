@@ -16,6 +16,6 @@ if __name__ == '__main__':
         managed = inventory.manage(user_input)
        
         if user_input == "L":
-            print('Inventory: ' + str(managed))
+            print('Inventory: ' + managed)
         elif managed == 'Invalid':
             print('Invalid Command')
