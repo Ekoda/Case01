@@ -9,13 +9,3 @@
   <li>Visa aktuellt lager. Görs genom att man skriver ”L” + enter.</li>
 </ol>
 <p>När en försäljning eller inleverans görs ska lagersaldot räknas ner eller upp med angivet antal. När programmet startar är saldot alltid 0 och data behöver inte lagras på något annat sätt än i primärminnet.</p>
-
-<br>
-<p>Run in console</p>
-<blockquote>python3 console_app.py</blockquote>
-
-<p>Run unittest</p>
-<blockquote>python3 -m unittest test_case</blockquote>
-
-<br>
-<p>Jag tar tacksamt emot feedback!</p>
